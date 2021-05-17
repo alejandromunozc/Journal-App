@@ -8,3 +8,13 @@ export const setError = (error) => ({
 export const removeError = () => ({
     type: types.uiRemoveError
 });
+
+export const startLoading = () => ({
+    type: types.uiStartLogin,
+    payload: true
+});
+
+export const finishLoading = () => ({
+    type: types.uiFinishtLogin,
+    payload: false
+})
