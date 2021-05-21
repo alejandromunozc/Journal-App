@@ -37,7 +37,7 @@ useEffect(() => {
           (note.url)
           && (
               <div className="notes__image">
-                <img src="https://image.freepik.com/vector-gratis/paisaje-tropical-horizontal-selva-rio-reflejo-manglar-salida-sol-contornos-aves_191217-10.jpg" alt="imagen" />
+                <img src={note.url} alt="imagen" />
               </div>
               )
         }
